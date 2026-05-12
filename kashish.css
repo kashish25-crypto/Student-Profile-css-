@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1729575846511-f499d2e17d79?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header {
+    height: 19vh;
+    background-color: rgb(0, 255, 255);
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.mam {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 20px;
+    list-style-type: none;
+
+
+}
+
+nav input{
+    display: none;
+}
+a {
+    padding: 10px;
+}
+
+a:hover {
+    color: white;
+    
+}
+
+
+#Home {
+    width: 100%;
+    min-height: 70vh;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    scroll-margin-top: 19vh;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+}
+
+#Home p {
+    width: 80vw;
+    border: 2px solid silver;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 13px;
+
+    word-spacing: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.971);
+}
+
+#Profile {
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    scroll-margin-top: 19vh;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+#Profile p {
+    margin: 10px 20px;
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 25px;
+    margin: 20px 85px;
+    word-spacing: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.971);
+
+
+}
+
+.skill li {
+    width: 40vw;
+    list-style-type: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.971);
+
+}
+
+li:hover {
+    background-color: gray;
+}
+
+p:hover {
+    background-color: lightseagreen;
+}
+
+#Courses {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    scroll-margin-top: 19vh;
+}
+
+#Courses p {
+    margin: 30px 30px;
+    width: 80vw;
+    border: 2px solid silver;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 25px;
+    margin: 20px 85px;
+    word-spacing: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.971);
+
+}
+
+h3 {
+    margin: 30px 30px;
+    text-align: center;
+}
+
+#Courses a {
+    border: 2px solid darkorchid;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+#Form {
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    scroll-margin-top: 19vh;
+
+}
+
+form {
+    height: 63vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: bold;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.971);
+}
+ label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 40vw;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: azure;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    width: 40vw;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+input:hover {
+    background: darkgrey;
+    color: darkmagenta;
+}
+
+textarea:hover {
+    background-color: darkgrey;
+    color: darkmagenta;
+}
+
+select:hover {
+    background-color: darkgrey;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+#GradesTable {
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    scroll-margin-top: 18vh;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+table {
+    width: 40vw;
+    height: 50vh;
+    border: 2px solid black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.971);
+    border-radius: 10px;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+thead,
+tfoot {
+    background-color: darkgray;
+
+}
+
+td:hover {
+    background-color: aquamarine;
+}
+
+#ContactUs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 100px;
+    scroll-margin-top: 19vh;
+
+}
+
+#ContactUs form {
+    width: 35vw;
+    height: 55vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: bold;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.971);
+}
+
+.you {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+#ContactUs p {
+    width: 30vw;
+    height: vh;
+    border: 2px solid lightseagreen;
+    padding: 20px;
+    margin: 10px 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#ContactUs input {
+    width: 20vw;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: azure;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px 20px;
+
+
+}
+
+#ContactUs textarea {
+    width: 20vw;
+    height: 40px;
+    padding: 20px;
+}
+
+#ContactUs select {
+    width: 20vw;
+}
+
+#ContactUs button {
+    width: 20vw;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    z-index: 1000;
+}
+
+@media(max-width:600px) {
+
+    h1,
+    h2,
+    h3 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #header {
+        width: 100%;
+        height: 15vh;
+        text-align: center;
+    }
+
+    .mam {
+        border: 2px solid black;
+        background-color: lightseagreen;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 10px 20px;
+        display: none;
+
+    }
+ .line{
+    width: 30px;
+    border: 2px solid;
+    font-size: 30px;
+     display: flex;
+     align-items: center;
+     margin: 10px 450px;
+    
+ }
+    #check:checked~.mam {
+        display: inline;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #check {
+        display: none;
+    }
+
+    img {
+        width: 200px;
+        height: 300px;
+    }
+
+    #Home p,
+    #Profile p,
+    #Courses p {
+        width: 80vw;
+        margin: 10px 40px;
+        padding: 15px;
+        font-size: 18px;
+
+    }
+
+    .you {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #ContactUs form {
+        width: 50vw;
+    }
+
+    #ContactUs input {
+        width: 30vw;
+        margin: 10px 5px;
+    }
+
+    #ContactUs textarea {
+        width: 30vw;
+        margin: 5px 5px;
+    }
+
+    #ContactUs button {
+        width: 30vw;
+    }
+
+    #ContactUs p {
+        width: 50vw;
+    }
+}
